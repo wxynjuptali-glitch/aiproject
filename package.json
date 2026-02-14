@@ -1,0 +1,15 @@
+{
+  "name": "aiproject",
+  "version": "1.0.0",
+  "description": "AI Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
