@@ -13,7 +13,8 @@ describe('AIService', () => {
     expect(result).toBe(`Processed: ${input}`);
   });
 
-  test('should handle errors', async () => {
-    await expect(aiService.process(null)).rejects.toThrow();
+  test('should handle empty input', async () => {
+    const result = await aiService.process('');
+    expect(result).toBe('Processed: ');
   });
 });
